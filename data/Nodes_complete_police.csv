@@ -1,0 +1,983 @@
+type,source,target,Label,weight,mode,lon,lat,Exits,Location,metroline,function,train_station,sourcesinknode,,closest_metro
+nodelink,Rotterdam centraal,Stadhuis,.,,metro,51.923495,4.470059,3,Centraal,D,metro_station,yes,source,FALSE,None
+nodelink,Stadhuis,Beurs,.,,metro,51.923411,4.478019,3,Noord,D,metro_station,no,node,FALSE,None
+nodelink,Beurs,Leuvehaven,.,,metro,51.918266,4.481274,5,Oost,D,metro_station,no,node,FALSE,None
+nodelink,Leuvehaven,Wilhelminaplein,.,,metro,51.913694,4.481781,4,Zuid,D,metro_station,no,node,FALSE,None
+nodelink,Wilhelminaplein,Reinhaven,.,,metro,51.907162,4.490299,3,West,D,metro_station,no,node,FALSE,None
+nodelink,Reinhaven,Maashaven,.,,metro,51.9037,4.496808,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Maashaven,Zuidplein,.,,metro,51.897181,4.494685,3,test,D,metro_station,no,node,FALSE,None
+nodelink,Zuidplein,Slinge,.,,metro,51.886926,4.488384,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Slinge,Rhoon,.,,metro,51.874678,4.477723,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Rhoon,Poortugaal,.,,metro,51.859171,4.419816,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Poortugaal,Tussenwater,.,,metro,51.861684,4.395824,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Tussenwater,Hoogvliet,.,,metro,51.862762,4.376451,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Hoogvliet,Zalmplaat,.,,metro,51.860635,4.366855,2,test,D,metro_station,no,node,FALSE,None
+nodelink,Zalmplaat,Spijkenisse Centrum,.,,metro,51.854852,4.362302,4,test,D,metro_station,no,node,FALSE,None
+nodelink,Spijkenisse Centrum,Heemraadlaan,.,,metro,51.846428,4.334334,4,test,D,metro_station,no,node,FALSE,None
+nodelink,Heemraadlaan,De Akkers,.,,metro,51.837742,4.331663,3,test,D,metro_station,no,node,FALSE,None
+node,De Akkers,,.,,metro,51.833216,4.319116,4,test,D,metro_station,no,sink,FALSE,None
+nodelink,Hoek van Holland Strand,Hoek van Holland Haven,.,,metro,51.98553806,4.107917154,2,test,B,metro_station,no,source,FALSE,None
+nodelink,Hoek van Holland Haven,Steendijkpolder,.,,metro,51.97489279,4.12821539,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Steendijkpolder,Maassluis West,.,,metro,51.93275488,4.224839492,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Maassluis West,Maassluis Centrum,.,,metro,51.92634292,4.235194795,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Maassluis Centrum,Vlaardingen West,.,,metro,51.91635767,4.254017971,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Vlaardingen West,Vlaardingen Centrum,.,,metro,51.90380101,4.314990349,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Vlaardingen Centrum,Vlaardingen Oost,.,,metro,51.90312181,4.344009994,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Vlaardingen Oost,Schiedam Nieuwland,.,,metro,51.91014998,4.361640033,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Schiedam Nieuwland,Schiedam Centrum,.,,metro,51.92288513,4.383819456,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Schiedam Centrum,Marconiplein,.,,metro,51.921934,4.409746,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Marconiplein,Delfshaven,.,,metro,51.91325514,4.432668546,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Delfshaven,Coolhaven,.,,metro,51.91007656,4.445875924,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Coolhaven,Dijkzicht,.,,metro,51.90945131,4.458003373,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Dijkzicht,Eendrachtsplein,.,,metro,51.912215,4.466743,5,test,B,metro_station,no,node,FALSE,None
+nodelink,Eendrachtsplein,Beurs,.,,metro,51.916025,4.472898,5,test,B,metro_station,no,node,FALSE,None
+nodelink,Beurs,Blaak,.,,metro,51.918264,4.481345,5,test,B,metro_station,no,node,FALSE,None
+nodelink,Blaak,Oostplein,.,,metro,51.918626,4.483765,3,test,B,metro_station,yes,node,FALSE,None
+nodelink,Oostplein,Gerdesiaweg,.,,metro,51.9231129,4.496625459,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Gerdesiaweg,Voorschoterlaan,.,,metro,51.92589596,4.506070468,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Voorschoterlaan,Kralingse Zoom,.,,metro,51.92507976,4.512662146,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Kralingse Zoom,Capelsebrug,.,,metro,51.92162655,4.533139951,4,test,B,metro_station,no,node,FALSE,None
+nodelink,Capelsebrug,Schenkel,.,,metro,51.92130705,4.557491868,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Schenkel,Prinsenlaan,.,,metro,51.93231913,4.563429147,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Prinsenlaan,Oosterflank,.,,metro,51.94042123,4.5565852,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Oosterflank,Alexander,.,,metro,51.9457755,4.554389333,4,test,B,metro_station,no,node,FALSE,None
+nodelink,Alexander,Graskruid,.,,metro,51.95149693,4.551925984,2,test,B,metro_station,yes,node,FALSE,None
+nodelink,Graskruid,Hesseplaats,.,,metro,51.9569347,4.549523234,2,test,B,metro_station,no,node,FALSE,None
+nodelink,Hesseplaats,Nieuw Verlaat,.,,metro,51.9630146,4.552436547,6,test,B,metro_station,no,node,FALSE,None
+nodelink,Nieuw Verlaat,Ambachtsland,.,,metro,51.96492206,4.562150907,4,test,B,metro_station,no,node,FALSE,None
+nodelink,Ambachtsland,De Tochten,.,,metro,51.9658037,4.570337777,2,test,B,metro_station,no,node,FALSE,None
+nodelink,De Tochten,Nesselande,.,,metro,51.96876531,4.578360549,2,test,B,metro_station,no,node,FALSE,None
+node,Nesselande,,.,,metro,51.979661,4.586525,2,test,B,metro_station,no,sink,FALSE,None
+nodelink,De Akkers,Heemraadlaan,.,,metro,51.833216,4.319116,4,test,C,metro_station,no,source,FALSE,None
+nodelink,Heemraadlaan,Spijkenisse Centrum,.,,metro,51.837742,4.331663,3,test,C,metro_station,no,node,FALSE,None
+nodelink,Spijkenisse Centrum,Zalmplaat,.,,metro,51.846428,4.334334,4,test,C,metro_station,no,node,FALSE,None
+nodelink,Zalmplaat,Hoogvliet,.,,metro,51.854852,4.362302,4,test,C,metro_station,no,node,FALSE,None
+nodelink,Hoogvliet,Tussenwater,.,,metro,51.860635,4.366855,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Tussenwater,Pernis,.,,metro,51.862762,4.376451,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Pernis,Vijfsluizen,.,,metro,51.88488867,4.38212953,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Vijfsluizen,Troelstralaan,.,,metro,51.90908239,4.372221364,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Troelstralaan,Parkweg,.,,metro,51.91547995,4.384710107,3,test,C,metro_station,no,node,FALSE,None
+nodelink,Parkweg,Schiedam Centrum,.,,metro,51.9214101,4.394862087,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Schiedam Centrum,Marconiplein,.,,metro,51.921934,4.409746,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Marconiplein,Delfshaven,.,,metro,51.91352956,4.432182077,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Delfshaven,Coolhaven,.,,metro,51.90999797,4.445387664,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Coolhaven,Dijkzicht,.,,metro,51.90945867,4.458027362,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Dijkzicht,Eendrachtsplein,.,,metro,51.91238899,4.466384182,5,test,C,metro_station,no,node,FALSE,None
+nodelink,Eendrachtsplein,Beurs,.,,metro,51.916025,4.472898,5,test,C,metro_station,no,node,FALSE,None
+nodelink,Beurs,Blaak,.,,metro,51.918266,4.481274,5,test,C,metro_station,no,node,FALSE,None
+nodelink,Blaak,Oostplein,.,,metro,51.918626,4.483765,3,test,C,metro_station,yes,node,FALSE,None
+nodelink,Oostplein,Gerdesiaweg,.,,metro,51.92303222,4.496611359,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Gerdesiaweg,Voorschoterlaan,.,,metro,51.9258768,4.506079315,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Voorschoterlaan,Kralingse Zoom,.,,metro,51.92507975,4.512626552,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Kralingse Zoom,Capelsebrug,.,,metro,51.92163202,4.533103665,4,test,C,metro_station,no,node,FALSE,None
+nodelink,Capelsebrug,Slotlaan,.,,metro,51.92126993,4.557512582,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Slotlaan,Capelle Centrum,.,,metro,51.92847162,4.578461684,2,test,C,metro_station,no,node,FALSE,None
+nodelink,Capelle Centrum,De Terp,.,,metro,51.93138201,4.589444844,4,test,C,metro_station,no,node,FALSE,None
+node,De Terp,,.,,metro,51.9358734,4.600176783,2,test,C,metro_station,no,sink,FALSE,None
+nodelink,Schiedam Centrum,Marconiplein,.,,metro,51.921934,4.409746,2,test,A,metro_station,no,source,FALSE,None
+nodelink,Marconiplein,Delfshaven,.,,metro,51.91352956,4.432182077,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Delfshaven,Coolhaven,.,,metro,51.90999797,4.445387664,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Coolhaven,Dijkzicht,.,,metro,51.90945867,4.458027362,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Dijkzicht,Eendrachtsplein,.,,metro,51.91238899,4.466384182,5,test,A,metro_station,no,node,FALSE,None
+nodelink,Eendrachtsplein,Beurs,.,,metro,51.916025,4.472898,5,test,A,metro_station,no,node,FALSE,None
+nodelink,Beurs,Blaak,.,,metro,51.918266,4.481274,5,test,A,metro_station,no,node,FALSE,None
+nodelink,Blaak,Oostplein,.,,metro,51.918626,4.483765,3,test,A,metro_station,yes,node,FALSE,None
+nodelink,Oostplein,Gerdesiaweg,.,,metro,51.92303222,4.496611359,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Gerdesiaweg,Voorschoterlaan,.,,metro,51.9258768,4.506079315,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Voorschoterlaan,Kralingse Zoom,.,,metro,51.92507975,4.512626552,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Kralingse Zoom,Capelsebrug,.,,metro,51.92163202,4.533103665,4,test,A,metro_station,no,node,FALSE,None
+nodelink,Capelsebrug,Schenkel,.,,metro,51.92126993,4.557512582,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Schenkel,Prinsenlaan,.,,metro,51.93231913,4.563429147,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Prinsenlaan,Oosterflank,.,,metro,51.94042123,4.5565852,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Oosterflank,Alexander,.,,metro,51.9457755,4.554389333,4,test,A,metro_station,no,node,FALSE,None
+nodelink,Alexander,Graskruid,.,,metro,51.95149693,4.551925984,2,test,A,metro_station,yes,node,FALSE,None
+nodelink,Graskruid,Romeynshof,.,,metro,51.9569347,4.549523234,2,test,A,metro_station,no,node,FALSE,None
+nodelink,Romeynshof,Binnenhof,.,,metro,51.96153628,4.543447006,2,test,A,metro_station,no,node,FALSE,None
+node,Binnenhof,,.,,metro,51.96024205,4.535069639,2,test,A,metro_station,no,sink,FALSE,None
+nodelink,Den Haag Centraal,Laan van NOI,.,,metro,52.08031054,4.326077437,2,test,E,metro_station,no,source,FALSE,None
+nodelink,Laan van NOI,Voorburg 't Loo,.,,metro,52.0792716,4.34308766,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Voorburg 't Loo,Leidschendam - Voorburg,.,,metro,52.08211082,4.365530459,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Leidschendam - Voorburg,Forepark,.,,metro,52.07745583,4.382025149,4,test,E,metro_station,no,node,FALSE,None
+nodelink,Forepark,Leidschenveen,.,,metro,52.06994227,4.392734834,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Leidschenveen,Nootdorp,.,,metro,52.06478873,4.400026813,3,test,E,metro_station,no,node,FALSE,None
+nodelink,Nootdorp,Pijnacker Centrum,.,,metro,52.04758367,4.414546148,4,test,E,metro_station,no,node,FALSE,None
+nodelink,Pijnacker Centrum,Pijnacker Zuid,.,,metro,52.02053942,4.436717679,9,test,E,metro_station,no,node,FALSE,None
+nodelink,Pijnacker Zuid,Berkel Westpolder,.,,metro,52.00488619,4.445768255,9,test,E,metro_station,no,node,FALSE,None
+nodelink,Berkel Westpolder,Rodenrijs,.,,metro,51.99004305,4.454134413,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Rodenrijs,Meijersplein,.,,metro,51.975568,4.460718094,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Meijersplein,Melanchthonweg,.,,metro,51.95586656,4.462294218,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Melanchthonweg,Blijdorp,.,,metro,51.94863755,4.464613711,4,test,E,metro_station,no,node,FALSE,None
+nodelink,Blijdorp,Rotterdam centraal,.,,metro,51.93041636,4.458567843,3,test,E,metro_station,no,node,FALSE,None
+nodelink,Rotterdam centraal,Stadhuis,.,,metro,51.923495,4.470059,3,test,E,metro_station,yes,node,FALSE,None
+nodelink,Stadhuis,Beurs,.,,metro,51.923411,4.478019,3,test,E,metro_station,no,node,FALSE,None
+nodelink,Beurs,Leuvehaven,.,,metro,51.918266,4.481274,5,test,E,metro_station,no,node,FALSE,None
+nodelink,Leuvehaven,Wilhelminaplein,.,,metro,51.913694,4.481781,4,test,E,metro_station,no,node,FALSE,None
+nodelink,Wilhelminaplein,Reinhaven,.,,metro,51.907162,4.490299,3,test,E,metro_station,no,node,FALSE,None
+nodelink,Reinhaven,Maashaven,.,,metro,51.9037,4.496808,2,test,E,metro_station,no,node,FALSE,None
+nodelink,Maashaven,Zuidplein,.,,metro,51.897181,4.494685,3,test,E,metro_station,no,node,FALSE,None
+nodelink,Zuidplein,Slinge,.,,metro,51.886926,4.488384,2,test,E,metro_station,no,node,FALSE,None
+node,Slinge,,.,,metro,51.874678,4.477723,2,test,E,metro_station,no,sink,FALSE,None
+node,Politie Stadhuis,,SH,,road,51.923506,4.479639,0,test,P,police_bureau,no,None,FALSE,Stadhuis
+node,Politie Rotterdam maashaven,,MH,,road,51.901926,4.495975,0,test,P,police_bureau,no,None,FALSE,Maashaven
+node,Politie Marconiplein,,MP,,road,51.91263005,4.434093943,0,test,P,police_bureau,no,None,FALSE,Marconiplein
+node,Politie Noord,,N,,road,51.94333956,4.479489281,0,test,P,police_bureau,no,None,FALSE,Melanchthonweg
+node,Politie Zuidplein,,ZP,,road,51.88926339,4.490632099,0,test,P,police_bureau,no,None,FALSE,Zuidplein
+node,Politie Veilingweg,,V,,road,51.94266416,4.491821409,0,test,P,police_bureau,no,None,FALSE,Gerdesiaweg
+node,Politie Krimpen aan den Ijssel,,KIJ,,road,51.91259062,4.590123399,0,test,P,police_bureau,no,None,FALSE,Slotlaan
+node,Politie Slinge,,SL,,road,51.87336994,4.483514369,0,test,P,police_bureau,no,None,FALSE,Slinge
+node,Politie Schiedam,,SCH,,road,51.92321242,4.381863667,0,test,P,police_bureau,no,None,FALSE,Schiedam Nieuwland
+node,Politie Hoogvliet,,HV,,road,51.86439955,4.353450165,0,test,P,police_bureau,no,None,FALSE,Hoogvliet
+node,Politie Spijkenisse,,SN,,,51.84483111,4.33161552,0,test,P,police_bureau,no,None,FALSE,Spijkenisse Centrum
+node,Politie de veranda,,VN,,road,51.89784588,4.519918474,0,test,P,police_bureau,no,None,FALSE,Reinhaven
+link,Politie Stadhuis,Rotterdam centraal,RC,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Stadhuis,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Beurs,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Leuvehaven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Wilhelminaplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Reinhaven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Maashaven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Zuidplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Slinge,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Rhoon,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Poortugaal,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Tussenwater,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Hoogvliet,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Zalmplaat,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Spijkenisse Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Heemraadlaan,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,De Akkers,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Hoek van Holland Strand,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Hoek van Holland Haven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Steendijkpolder,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Maassluis West,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Maassluis Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Vlaardingen West,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Vlaardingen Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Vlaardingen Oost,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Schiedam Nieuwland,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Schiedam Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Marconiplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Delfshaven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Coolhaven,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Dijkzicht,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Eendrachtsplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Blaak,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Oostplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Gerdesiaweg,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Voorschoterlaan,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Kralingse Zoom,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Capelsebrug,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Schenkel,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Prinsenlaan,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Oosterflank,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Alexander,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Graskruid,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Hesseplaats,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Nieuw Verlaat,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Ambachtsland,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,De Tochten,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Nesselande,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Pernis,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Vijfsluizen,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Troelstralaan,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Parkweg,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Slotlaan,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Capelle Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,De Terp,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Romeynshof,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Binnenhof,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Den Haag Centraal,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Laan van NOI,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Voorburg 't Loo,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Leidschendam - Voorburg,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Forepark,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Leidschenveen,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Nootdorp,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Pijnacker Centrum,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Pijnacker Zuid,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Berkel Westpolder,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Rodenrijs,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Meijersplein,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Melanchthonweg,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Stadhuis,Blijdorp,,,road,51.923506,4.479639,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Rotterdam centraal,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Stadhuis,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Beurs,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Leuvehaven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Wilhelminaplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Reinhaven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Maashaven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Zuidplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Slinge,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Rhoon,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Poortugaal,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Tussenwater,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Hoogvliet,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Zalmplaat,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Spijkenisse Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Heemraadlaan,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,De Akkers,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Hoek van Holland Strand,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Hoek van Holland Haven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Steendijkpolder,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Maassluis West,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Maassluis Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Vlaardingen West,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Vlaardingen Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Vlaardingen Oost,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Schiedam Nieuwland,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Schiedam Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Marconiplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Delfshaven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Coolhaven,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Dijkzicht,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Eendrachtsplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Blaak,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Oostplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Gerdesiaweg,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Voorschoterlaan,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Kralingse Zoom,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Capelsebrug,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Schenkel,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Prinsenlaan,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Oosterflank,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Alexander,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Graskruid,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Hesseplaats,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Nieuw Verlaat,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Ambachtsland,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,De Tochten,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Nesselande,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Pernis,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Vijfsluizen,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Troelstralaan,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Parkweg,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Slotlaan,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Capelle Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,De Terp,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Romeynshof,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Binnenhof,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Den Haag Centraal,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Laan van NOI,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Voorburg 't Loo,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Leidschendam - Voorburg,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Forepark,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Leidschenveen,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Nootdorp,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Pijnacker Centrum,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Pijnacker Zuid,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Berkel Westpolder,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Rodenrijs,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Meijersplein,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Melanchthonweg,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Rotterdam maashaven,Blijdorp,,,road,51.901926,4.495975,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Rotterdam centraal,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Stadhuis,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Beurs,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Leuvehaven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Wilhelminaplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Reinhaven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Maashaven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Zuidplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Slinge,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Rhoon,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Poortugaal,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Tussenwater,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Hoogvliet,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Zalmplaat,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Spijkenisse Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Heemraadlaan,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,De Akkers,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Hoek van Holland Strand,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Hoek van Holland Haven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Steendijkpolder,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Maassluis West,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Maassluis Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Vlaardingen West,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Vlaardingen Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Vlaardingen Oost,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Schiedam Nieuwland,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Schiedam Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Marconiplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Delfshaven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Coolhaven,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Dijkzicht,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Eendrachtsplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Blaak,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Oostplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Gerdesiaweg,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Voorschoterlaan,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Kralingse Zoom,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Capelsebrug,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Schenkel,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Prinsenlaan,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Oosterflank,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Alexander,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Graskruid,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Hesseplaats,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Nieuw Verlaat,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Ambachtsland,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,De Tochten,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Nesselande,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Pernis,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Vijfsluizen,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Troelstralaan,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Parkweg,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Slotlaan,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Capelle Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,De Terp,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Romeynshof,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Binnenhof,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Den Haag Centraal,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Laan van NOI,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Voorburg 't Loo,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Leidschendam - Voorburg,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Forepark,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Leidschenveen,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Nootdorp,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Pijnacker Centrum,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Pijnacker Zuid,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Berkel Westpolder,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Rodenrijs,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Meijersplein,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Melanchthonweg,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Marconiplein,Blijdorp,,,road,51.91263005,4.434093943,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Rotterdam centraal,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Stadhuis,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Beurs,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Leuvehaven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Wilhelminaplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Reinhaven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Maashaven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Zuidplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Slinge,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Rhoon,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Poortugaal,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Tussenwater,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Hoogvliet,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Zalmplaat,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Spijkenisse Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Heemraadlaan,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,De Akkers,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Hoek van Holland Strand,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Hoek van Holland Haven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Steendijkpolder,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Maassluis West,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Maassluis Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Vlaardingen West,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Vlaardingen Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Vlaardingen Oost,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Schiedam Nieuwland,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Schiedam Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Marconiplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Delfshaven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Coolhaven,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Dijkzicht,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Eendrachtsplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Blaak,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Oostplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Gerdesiaweg,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Voorschoterlaan,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Kralingse Zoom,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Capelsebrug,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Schenkel,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Prinsenlaan,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Oosterflank,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Alexander,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Graskruid,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Hesseplaats,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Nieuw Verlaat,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Ambachtsland,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,De Tochten,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Nesselande,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Pernis,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Vijfsluizen,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Troelstralaan,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Parkweg,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Slotlaan,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Capelle Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,De Terp,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Romeynshof,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Binnenhof,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Den Haag Centraal,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Laan van NOI,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Voorburg 't Loo,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Leidschendam - Voorburg,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Forepark,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Leidschenveen,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Nootdorp,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Pijnacker Centrum,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Pijnacker Zuid,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Berkel Westpolder,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Rodenrijs,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Meijersplein,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Melanchthonweg,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Noord,Blijdorp,,,road,51.94333956,4.479489281,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Rotterdam centraal,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Stadhuis,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Beurs,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Leuvehaven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Wilhelminaplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Reinhaven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Maashaven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Zuidplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Slinge,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Rhoon,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Poortugaal,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Tussenwater,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Hoogvliet,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Zalmplaat,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Spijkenisse Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Heemraadlaan,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,De Akkers,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Hoek van Holland Strand,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Hoek van Holland Haven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Steendijkpolder,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Maassluis West,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Maassluis Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Vlaardingen West,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Vlaardingen Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Vlaardingen Oost,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Schiedam Nieuwland,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Schiedam Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Marconiplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Delfshaven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Coolhaven,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Dijkzicht,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Eendrachtsplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Blaak,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Oostplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Gerdesiaweg,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Voorschoterlaan,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Kralingse Zoom,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Capelsebrug,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Schenkel,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Prinsenlaan,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Oosterflank,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Alexander,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Graskruid,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Hesseplaats,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Nieuw Verlaat,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Ambachtsland,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,De Tochten,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Nesselande,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Pernis,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Vijfsluizen,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Troelstralaan,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Parkweg,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Slotlaan,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Capelle Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,De Terp,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Romeynshof,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Binnenhof,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Den Haag Centraal,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Laan van NOI,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Voorburg 't Loo,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Leidschendam - Voorburg,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Forepark,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Leidschenveen,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Nootdorp,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Pijnacker Centrum,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Pijnacker Zuid,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Berkel Westpolder,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Rodenrijs,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Meijersplein,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Melanchthonweg,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Zuidplein,Blijdorp,,,road,51.88926339,4.490632099,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Rotterdam centraal,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Stadhuis,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Beurs,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Leuvehaven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Wilhelminaplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Reinhaven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Maashaven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Zuidplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Slinge,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Rhoon,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Poortugaal,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Tussenwater,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Hoogvliet,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Zalmplaat,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Spijkenisse Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Heemraadlaan,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,De Akkers,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Hoek van Holland Strand,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Hoek van Holland Haven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Steendijkpolder,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Maassluis West,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Maassluis Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Vlaardingen West,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Vlaardingen Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Vlaardingen Oost,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Schiedam Nieuwland,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Schiedam Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Marconiplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Delfshaven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Coolhaven,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Dijkzicht,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Eendrachtsplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Blaak,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Oostplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Gerdesiaweg,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Voorschoterlaan,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Kralingse Zoom,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Capelsebrug,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Schenkel,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Prinsenlaan,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Oosterflank,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Alexander,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Graskruid,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Hesseplaats,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Nieuw Verlaat,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Ambachtsland,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,De Tochten,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Nesselande,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Pernis,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Vijfsluizen,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Troelstralaan,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Parkweg,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Slotlaan,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Capelle Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,De Terp,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Romeynshof,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Binnenhof,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Den Haag Centraal,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Laan van NOI,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Voorburg 't Loo,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Leidschendam - Voorburg,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Forepark,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Leidschenveen,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Nootdorp,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Pijnacker Centrum,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Pijnacker Zuid,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Berkel Westpolder,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Rodenrijs,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Meijersplein,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Melanchthonweg,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Veilingweg,Blijdorp,,,road,51.94266416,4.491821409,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Rotterdam centraal,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Stadhuis,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Beurs,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Leuvehaven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Wilhelminaplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Reinhaven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Maashaven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Zuidplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Slinge,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Rhoon,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Poortugaal,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Tussenwater,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Hoogvliet,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Zalmplaat,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Spijkenisse Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Heemraadlaan,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,De Akkers,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Hoek van Holland Strand,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Hoek van Holland Haven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Steendijkpolder,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Maassluis West,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Maassluis Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Vlaardingen West,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Vlaardingen Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Vlaardingen Oost,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Schiedam Nieuwland,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Schiedam Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Marconiplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Delfshaven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Coolhaven,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Dijkzicht,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Eendrachtsplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Blaak,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Oostplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Gerdesiaweg,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Voorschoterlaan,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Kralingse Zoom,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Capelsebrug,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Schenkel,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Prinsenlaan,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Oosterflank,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Alexander,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Graskruid,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Hesseplaats,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Nieuw Verlaat,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Ambachtsland,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,De Tochten,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Nesselande,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Pernis,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Vijfsluizen,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Troelstralaan,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Parkweg,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Slotlaan,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Capelle Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,De Terp,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Romeynshof,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Binnenhof,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Den Haag Centraal,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Laan van NOI,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Voorburg 't Loo,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Leidschendam - Voorburg,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Forepark,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Leidschenveen,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Nootdorp,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Pijnacker Centrum,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Pijnacker Zuid,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Berkel Westpolder,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Rodenrijs,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Meijersplein,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Melanchthonweg,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie Krimpen aan den Ijssel,Blijdorp,Politie KadIJ,,road,51.91259062,4.590123399,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Rotterdam centraal,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Stadhuis,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Beurs,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Leuvehaven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Wilhelminaplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Reinhaven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Maashaven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Zuidplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Slinge,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Rhoon,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Poortugaal,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Tussenwater,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Hoogvliet,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Zalmplaat,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Spijkenisse Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Heemraadlaan,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,De Akkers,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Hoek van Holland Strand,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Hoek van Holland Haven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Steendijkpolder,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Maassluis West,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Maassluis Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Vlaardingen West,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Vlaardingen Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Vlaardingen Oost,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Schiedam Nieuwland,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Schiedam Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Marconiplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Delfshaven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Coolhaven,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Dijkzicht,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Eendrachtsplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Blaak,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Oostplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Gerdesiaweg,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Voorschoterlaan,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Kralingse Zoom,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Capelsebrug,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Schenkel,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Prinsenlaan,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Oosterflank,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Alexander,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Graskruid,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Hesseplaats,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Nieuw Verlaat,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Ambachtsland,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,De Tochten,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Nesselande,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Pernis,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Vijfsluizen,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Troelstralaan,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Parkweg,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Slotlaan,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Capelle Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,De Terp,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Romeynshof,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Binnenhof,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Den Haag Centraal,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Laan van NOI,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Voorburg 't Loo,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Leidschendam - Voorburg,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Forepark,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Leidschenveen,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Nootdorp,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Pijnacker Centrum,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Pijnacker Zuid,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Berkel Westpolder,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Rodenrijs,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Meijersplein,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Melanchthonweg,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie de veranda,Blijdorp,,,road,51.89784588,4.519918474,,test,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Rotterdam centraal,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Stadhuis,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Beurs,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Leuvehaven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Wilhelminaplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Reinhaven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Maashaven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Zuidplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Slinge,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Rhoon,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Poortugaal,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Tussenwater,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Hoogvliet,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Zalmplaat,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Spijkenisse Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Heemraadlaan,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,De Akkers,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Hoek van Holland Strand,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Hoek van Holland Haven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Steendijkpolder,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Maassluis West,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Maassluis Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Vlaardingen West,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Vlaardingen Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Vlaardingen Oost,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Schiedam Nieuwland,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Schiedam Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Marconiplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Delfshaven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Coolhaven,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Dijkzicht,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Eendrachtsplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Blaak,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Oostplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Gerdesiaweg,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Voorschoterlaan,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Kralingse Zoom,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Capelsebrug,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Schenkel,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Prinsenlaan,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Oosterflank,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Alexander,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Graskruid,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Hesseplaats,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Nieuw Verlaat,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Ambachtsland,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,De Tochten,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Nesselande,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Pernis,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Vijfsluizen,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Troelstralaan,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Parkweg,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Slotlaan,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Capelle Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,De Terp,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Romeynshof,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Binnenhof,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Den Haag Centraal,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Laan van NOI,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Voorburg 't Loo,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Leidschendam - Voorburg,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Forepark,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Leidschenveen,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Nootdorp,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Pijnacker Centrum,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Pijnacker Zuid,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Berkel Westpolder,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Rodenrijs,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Meijersplein,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Melanchthonweg,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Slinge,Blijdorp,,,road,51.8732439,4.483233706,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Rotterdam centraal,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Stadhuis,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Beurs,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Leuvehaven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Wilhelminaplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Reinhaven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Maashaven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Zuidplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Slinge,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Rhoon,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Poortugaal,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Tussenwater,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Hoogvliet,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Zalmplaat,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Spijkenisse Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Heemraadlaan,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,De Akkers,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Hoek van Holland Strand,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Hoek van Holland Haven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Steendijkpolder,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Maassluis West,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Maassluis Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Vlaardingen West,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Vlaardingen Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Vlaardingen Oost,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Schiedam Nieuwland,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Schiedam Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Marconiplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Delfshaven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Coolhaven,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Dijkzicht,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Eendrachtsplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Blaak,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Oostplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Gerdesiaweg,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Voorschoterlaan,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Kralingse Zoom,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Capelsebrug,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Schenkel,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Prinsenlaan,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Oosterflank,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Alexander,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Graskruid,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Hesseplaats,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Nieuw Verlaat,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Ambachtsland,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,De Tochten,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Nesselande,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Pernis,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Vijfsluizen,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Troelstralaan,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Parkweg,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Slotlaan,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Capelle Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,De Terp,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Romeynshof,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Binnenhof,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Den Haag Centraal,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Laan van NOI,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Voorburg 't Loo,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Leidschendam - Voorburg,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Forepark,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Leidschenveen,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Nootdorp,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Pijnacker Centrum,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Pijnacker Zuid,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Berkel Westpolder,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Rodenrijs,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Meijersplein,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Melanchthonweg,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Hoogvliet,Blijdorp,,,road,51.86439955,4.353450165,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Rotterdam centraal,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Stadhuis,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Beurs,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Leuvehaven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Wilhelminaplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Reinhaven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Maashaven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Zuidplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Slinge,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Rhoon,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Poortugaal,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Tussenwater,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Hoogvliet,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Zalmplaat,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Spijkenisse Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Heemraadlaan,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,De Akkers,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Hoek van Holland Strand,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Hoek van Holland Haven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Steendijkpolder,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Maassluis West,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Maassluis Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Vlaardingen West,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Vlaardingen Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Vlaardingen Oost,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Schiedam Nieuwland,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Schiedam Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Marconiplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Delfshaven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Coolhaven,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Dijkzicht,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Eendrachtsplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Blaak,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Oostplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Gerdesiaweg,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Voorschoterlaan,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Kralingse Zoom,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Capelsebrug,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Schenkel,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Prinsenlaan,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Oosterflank,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Alexander,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Graskruid,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Hesseplaats,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Nieuw Verlaat,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Ambachtsland,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,De Tochten,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Nesselande,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Pernis,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Vijfsluizen,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Troelstralaan,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Parkweg,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Slotlaan,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Capelle Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,De Terp,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Romeynshof,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Binnenhof,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Den Haag Centraal,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Laan van NOI,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Voorburg 't Loo,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Leidschendam - Voorburg,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Forepark,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Leidschenveen,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Nootdorp,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Pijnacker Centrum,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Pijnacker Zuid,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Berkel Westpolder,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Rodenrijs,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Meijersplein,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Melanchthonweg,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Schiedam,Blijdorp,,,road,51.92321242,4.381863667,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Rotterdam centraal,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Stadhuis,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Beurs,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Leuvehaven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Wilhelminaplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Reinhaven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Maashaven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Zuidplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Slinge,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Rhoon,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Poortugaal,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Tussenwater,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Hoogvliet,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Zalmplaat,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Spijkenisse Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Heemraadlaan,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,De Akkers,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Hoek van Holland Strand,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Hoek van Holland Haven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Steendijkpolder,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Maassluis West,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Maassluis Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Vlaardingen West,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Vlaardingen Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Vlaardingen Oost,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Schiedam Nieuwland,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Schiedam Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Marconiplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Delfshaven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Coolhaven,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Dijkzicht,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Eendrachtsplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Blaak,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Oostplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Gerdesiaweg,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Voorschoterlaan,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Kralingse Zoom,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Capelsebrug,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Schenkel,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Prinsenlaan,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Oosterflank,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Alexander,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Graskruid,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Hesseplaats,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Nieuw Verlaat,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Ambachtsland,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,De Tochten,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Nesselande,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Pernis,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Vijfsluizen,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Troelstralaan,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Parkweg,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Slotlaan,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Capelle Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,De Terp,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Romeynshof,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Binnenhof,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Den Haag Centraal,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Laan van NOI,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Voorburg 't Loo,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Leidschendam - Voorburg,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Forepark,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Leidschenveen,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Nootdorp,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Pijnacker Centrum,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Pijnacker Zuid,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Berkel Westpolder,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Rodenrijs,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Meijersplein,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Melanchthonweg,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None
+link,Politie Spijkenisse,Blijdorp,,,road,51.84483111,4.33161552,,tet,P,police_bureau,,None,FALSE,None

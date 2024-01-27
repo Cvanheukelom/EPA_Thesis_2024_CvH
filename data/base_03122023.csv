@@ -1,0 +1,2 @@
+scenario,crim_pos,crim_strat,crim_bounded_rat,crim_bound_rat_time,crim_loose_goal,police_undercover,crim_max_diverge,pol_strat,pol_guarding,Police_entrance,units,P_multiple_at_station
+0,centre,random,FALSE,1,FALSE,FALSE,10,random,metro_platform,main,3,5
