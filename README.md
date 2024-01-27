@@ -17,6 +17,8 @@ Launch the simulation game with visualization:
 
 Currently the files are set to run the base scenario of the no- interaction experiment (1). If another experiments should run, interaction variable for the police and criminal agents need to be changed accordingly.
 
+The output files and logfiles of the experiments are too large for Github. Contact me to get access to them.
+
 ## Files
 
 ### Python files:
@@ -35,35 +37,30 @@ Currently the files are set to run the base scenario of the no- interaction expe
 ### Data folder exploratory run:
 * [Scenario set-up](data/experiment_scenarios_27112023.csv): Excel file containing input variables per scenario.
 * [Uncertainties](data/exp_uncertainties_no_int_exploring.csv): Excel file containing uncertainties for every scenario.
-* [Output](experiment/no_int_exploring_27112023): Folder containing output file and log files
 
 
 ### Data folder experiment 1 - no interaction:
 * [Base scenario](data/base_28112023.csv): Excel file containing input variables for base scenario.
 * [Scenario set-up](data/experiment_scenarios_28112023.csv): Excel file containing input variables per scenario.
 * [Uncertainties](data/exp_uncertainties_no_int.csv): Excel file containing uncertainties for every scenario.
-* [Output](experiment/no_interaction_28112023): Folder containing output file and log files
 
 
 ### Data folder experiment 2 - criminal interaction:
 * [Base scenario](data/base_29112023.csv): Excel file containing input variables for base scenario.
 * [Scenario set-up](data/experiment_scenarios_29112023.csv): Excel file containing input variables per scenario.
 * [Uncertainties](data/exp_uncertainties_crim_int.csv): Excel file containing uncertainties for every scenario.
-* [Output](experiment/crim_int_29112023): Folder containing output file and log files
 
 
 ### Data folder experiment 3 - police interaction:
 * [Base scenario](data/base_01122023.csv): Excel file containing input variables for base scenario.
 * [Scenario set-up](data/experiment_scenarios_01122023.csv): Excel file containing input variables per scenario.
 * [Uncertainties](data/exp_uncertainties_pol_int.csv): Excel file containing uncertainties for every scenario.
-* [Output](experiment/pol_int_01122023): Folder containing output file and log files
 
 
 ### Data folder experiment 4 - full interaction:
 * [Base scenario](data/base_03122023.csv): Excel file containing input variables for base scenario.
 * [Scenario set-up](data/experiment_scenarios_03122023.csv): Excel file containing input variables per scenario.
 * [Uncertainties](data/exp_uncertainties_full_int.csv): Excel file containing uncertainties for every scenario.
-* [Output](experiment/full_int_03122023): Folder containing output file and log files
 
 
 
